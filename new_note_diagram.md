@@ -1,4 +1,4 @@
-Simple flow chart diagram for testing Mermaid syntax
+Exercise 0.4 of Part 0
 
 ```mermaid
 sequenceDiagram
