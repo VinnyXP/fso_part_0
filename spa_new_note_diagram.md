@@ -1,4 +1,4 @@
-Exercise 0.5 of Part 0
+Exercise 0.6 of Part 0
 
 ```mermaid
 sequenceDiagram
@@ -28,6 +28,11 @@ sequenceDiagram
     browser->>server: GET https://studies.cs.helsinki.fi/favicon.ico
     activate server
     server->>browser: HTML Document
+    deactivate server
+
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    activate server
+    server->>browser: Json data
     deactivate server
 
 ```
